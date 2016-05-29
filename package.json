@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "gulp-syncronize@^1.0.0",
+      "C:\\Users\\Steven\\Desktop\\Calculator"
+    ]
+  ],
+  "_from": "gulp-syncronize@>=1.0.0 <2.0.0",
+  "_id": "gulp-syncronize@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gulp-syncronize",
+  "_nodeVersion": "5.3.0",
+  "_npmUser": {
+    "email": "steventheevilz@gmail.com",
+    "name": "steventheevilz"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {
+    "inflight": "1.0.5",
+    "inherits": "2.0.1",
+    "minimatch": "3.0.0",
+    "once": "1.3.3",
+    "path-is-absolute": "1.0.0"
+  },
+  "_requested": {
+    "name": "gulp-syncronize",
+    "raw": "gulp-syncronize@^1.0.0",
+    "rawSpec": "^1.0.0",
+    "scope": null,
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gulp-syncronize/-/gulp-syncronize-1.0.0.tgz",
+  "_shasum": "70affba2e1e17a0f9bc5b5e6c52b9a83ae280a06",
+  "_shrinkwrap": null,
+  "_spec": "gulp-syncronize@^1.0.0",
+  "_where": "C:\\Users\\Steven\\Desktop\\Calculator",
+  "author": {
+    "email": "steventheevilz@gmail.com",
+    "name": "steventheevilz"
+  },
+  "bugs": {
+    "url": "https://github.com/StevenTheEVILZ/gulp-purge/issues"
+  },
+  "dependencies": {
+    "del": "",
+    "glob": ""
+  },
+  "description": "This gulp plugin deletes files from a directory (compiled folder) if it doesn't exist in another directory (src folder) with support for preprocessing.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "70affba2e1e17a0f9bc5b5e6c52b9a83ae280a06",
+    "tarball": "https://registry.npmjs.org/gulp-syncronize/-/gulp-syncronize-1.0.0.tgz"
+  },
+  "files": [
+    "index.js"
+  ],
+  "gitHead": "31b8f6cfb26b7a5f07870ed98d032d2f665938f6",
+  "homepage": "https://github.com/StevenTheEVILZ/gulp-purge#readme",
+  "keywords": [
+    "gulpplugin",
+    "gulpsyncronize",
+    "gulp-syncronize",
+    "syncronize",
+    "delete",
+    "syncronize"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "steventheevilz@gmail.com",
+      "name": "steventheevilz"
+    }
+  ],
+  "name": "gulp-syncronize",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenTheEVILZ/gulp-purge.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
