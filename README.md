@@ -18,7 +18,7 @@ gulp.task('unused', function() {
 ```
 
 #Results
-
+```
 -output
     -assets
         img1.jpg
@@ -55,7 +55,7 @@ gulp.task('unused', function() {
         -f
             c.coffee
     index.html
-
+```
 -img3.jpg gets deleted because there is no corresponding file in src folder
 -n.css and n.css.map both get deleted because there is no corresponding file in src folder
 -d.js and d.js.map both get deleted because there is no corresponding file in src folder
@@ -63,7 +63,7 @@ gulp.task('unused', function() {
 -a.js, b.js, and c.js both do NOT get deleted because .js is replaced with .coffee when checking and a corresponding file is found
 -a.js.map, b.js.map, and c.js.map both do NOT get deleted because .js is replaced with .coffee and .map is removed when checking and a corresponding file is found
 -main.css and main.css.map are NOT deleted because they are in the excluded list
-
+```
 -output
     -assets
         img1.jpg
@@ -83,7 +83,7 @@ gulp.task('unused', function() {
     index.html
 
 -src: unchanged
-
+```
 #Special cases
 
 'a' maps to 'c' only if 'a': 'b' comes before 'b': 'c'
