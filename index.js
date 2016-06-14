@@ -6,13 +6,13 @@ var glob = require("glob");
 function main(options) {
 
     var src = options.src;
-    if (src.endsWith('/')) {
+    if (src.match("/$")){
         src = src.slice(0, -1);
     }
     var srcFiles = glob.sync(src + '/**/*');
 
     var dest = options.target;
-    if (dest.endsWith('/')) {
+    if (dest.match("/$")){
         dest = dest.slice(0, -1);
     }
     var destFiles = glob.sync(dest + '/**/*');
